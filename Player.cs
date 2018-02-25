@@ -15,6 +15,7 @@ public class Player : MonoBehaviour {
   
   void Update () {
     transform.Translate(new Vector3.right * Time.deltaTime * 20);
+    speed = 10;
   }
 
 }
