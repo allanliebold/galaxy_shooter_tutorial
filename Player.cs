@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
   //public or private identify
   //data type - int, floats, bool, strings
   
-  public float speed;
+  public float speed = 5.0;
   
   void Start () {
     //Debug.Log(transform.position);
