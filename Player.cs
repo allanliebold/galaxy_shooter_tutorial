@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
   }
   
   void Update () {
-    transform.Translate(new Vector3.right * Time.deltaTime * 5);
+    transform.Translate(new Vector3.right * Time.deltaTime * 20);
   }
 
 }
