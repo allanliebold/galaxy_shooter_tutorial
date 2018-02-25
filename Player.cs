@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngin;
+using UnityEngine;
 
 public class Player : MonoBehaviour {
   void Start () {
