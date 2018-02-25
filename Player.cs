@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
   void Start () {
-    Debug.Log("x pos: " + transform.position.x);
+    Debug.Log(transform.position);
   }
   
   void Update () {
