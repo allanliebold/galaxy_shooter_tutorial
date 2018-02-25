@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
   void Start () {
-    Debug.Log(transform.position);
+    //Debug.Log(transform.position);
+    transform.position = new Vector3(0, 0, 0);
   }
   
   void Update () {
