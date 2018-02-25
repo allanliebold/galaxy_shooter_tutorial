@@ -9,7 +9,7 @@ public class Player : MonoBehaviour {
   }
   
   void Update () {
-  
+    transform.Translate(new Vector3(1, 0, 0);
   }
 
 }
