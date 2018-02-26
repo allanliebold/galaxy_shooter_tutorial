@@ -13,6 +13,8 @@ public class Player : MonoBehaviour {
 	
 	void Update () {
 		float horizontalInput = Input.GetAxis ("Horizontal");
+		float verticalInput = Input.GetAxis ("Vertical");
+		
 		transform.Translate (Vector3.right * speed * horizontalInput * Time.deltaTime);
 		
 	}
