@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
 		float verticalInput = Input.GetAxis ("Vertical");
 		
 		transform.Translate (Vector3.right * speed * horizontalInput * Time.deltaTime);
+		transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
 		
 	}
 }
