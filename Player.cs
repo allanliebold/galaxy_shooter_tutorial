@@ -6,7 +6,7 @@ public class Player : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		Debug.Log ("Hello");
+		Debug.Log ("Name: " + name);
 	}
 	
 	// Update is called once per frame
