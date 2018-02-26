@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	float speed = 5.0;
+	float speed = 5.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -14,6 +14,6 @@ public class Player : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		transform.Translate (Vector3.right * Time.deltaTime * speed);
 	}
 }
