@@ -17,6 +17,9 @@ public class Player : MonoBehaviour {
 		
 		if(transform.position.x < 10) {
 			transform.Translate (Vector3.right * speed * horizontalInput * Time.deltaTime);
+		}
+		
+		if(transform.position.y > 0) {
 			transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
 		}
 	}
