@@ -19,6 +19,8 @@ public class Player : MonoBehaviour {
 			transform.Translate (Vector3.right * speed * horizontalInput * Time.deltaTime);
 		}
 		
+		// Only move up as long as position is less than 10
+		
 		if(transform.position.y > 0) {
 			transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
 		}
