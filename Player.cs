@@ -23,10 +23,9 @@ public class Player : MonoBehaviour {
 		
 		if(transform.position.y > 0) {
 			transform.position.y = new Vector3(transform.position.x, 0, 0);
-		} else {
+		} elseif(transform.position.y < -0.42f) {
 		
 		}
 		
-		// If player y position is greater than 0, assign it to 0 
 	}
 }
