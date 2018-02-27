@@ -15,11 +15,22 @@ public class Player : MonoBehaviour {
 		float horizontalInput = Input.GetAxis ("Horizontal");
 		float verticalInput = Input.GetAxis ("Vertical");
 		
-		if(transform.position.x < 10) {
-			transform.Translate (Vector3.right * speed * horizontalInput * Time.deltaTime);
+		transform.Translate (Vector3.right * speed * horizontalInput * Time.deltaTime);
+		transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
+		
+		if(transform.position.x > 9.4f) {
+			transform.position = new Vector3(9.4f, transform.position.y, 0);	
+		} else if(transform.position.x < -9.4f) {
+			transform.position = new Vector3(-9.4f, transform.position.y, 0);	
 		}
 		
-		transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
+/* To have the player wrap around horizontally
+	if(transform.position.x > 9.4f) {
+		transform.position = new Vector3(-9.4f, transform.position.y, 0);
+	} else if(transform.position.x < -9.4f) {
+		transform.position = new Vector3(9.4f, transform.position.y, 0);
+	}
+*/
 		
 		if(transform.position.y > 0) {
 			transform.position = new Vector3(transform.position.x, 0, 0);
