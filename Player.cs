@@ -19,14 +19,14 @@ public class Player : MonoBehaviour {
 			transform.Translate (Vector3.right * speed * horizontalInput * Time.deltaTime);
 		}
 		
-		// Only move up as long as position is less than 10
+		transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
 		
 		if(transform.position.y > 0) {
-			transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
+			transform.position.y = new Vector3(transform.position.x, 0, 0);
 		} else {
 		
 		}
 		
-		// Only move left as long as position is greater than 0, else do something else
+		// If player y position is greater than 0, assign it to 0 
 	}
 }
