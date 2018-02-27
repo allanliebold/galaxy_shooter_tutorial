@@ -23,7 +23,7 @@ public class Player : MonoBehaviour {
 		
 		if(transform.position.y > 0) {
 			transform.position.y = new Vector3(transform.position.x, 0, 0);
-		} elseif(transform.position.y < -0.42f) {
+		} elseif(transform.position.y < -4.2f) {
 		
 		}
 		
