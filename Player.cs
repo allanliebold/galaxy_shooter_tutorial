@@ -23,6 +23,10 @@ public class Player : MonoBehaviour {
 		
 		if(transform.position.y > 0) {
 			transform.Translate (Vector3.up * speed * verticalInput * Time.deltaTime);
+		} else {
+		
 		}
+		
+		// Only move left as long as position is greater than 0, else do something else
 	}
 }
