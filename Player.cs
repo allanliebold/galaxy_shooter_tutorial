@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	float speed = 5.0f;
+	private float speed = 5.0f;
 
 	void Start () {
 		transform.position = new Vector3 (0, 0, 0);
