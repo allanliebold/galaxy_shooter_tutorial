@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-
 	[SerializeField]
 	private float speed = 5.0f;
 
@@ -41,7 +40,7 @@ public class Player : MonoBehaviour {
 			transform.position = new Vector3(transform.position.x, 0, 0);
 		} else if(transform.position.y < -4.2f) {
 			transform.position = new Vector3(transform.position.x, -4.2f, 0);
-		}
-		
+		}	
 	}
+	
 }
