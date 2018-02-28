@@ -14,7 +14,7 @@ public class Player : MonoBehaviour {
 	private void Update () {
 		Movement ();
 		
-		if(Input.GetKeyDown()) {
+		if(Input.GetKeyDown(KeyCode.Space)) {
 			
 		}
 	}
