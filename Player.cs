@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 
-	[SerializedField]
+	[SerializeField]
 	private float speed = 5.0f;
 
 	private void Start () {
