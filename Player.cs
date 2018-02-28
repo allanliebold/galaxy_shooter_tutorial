@@ -6,12 +6,12 @@ public class Player : MonoBehaviour {
 
 	private float speed = 5.0f;
 
-	void Start () {
+	private void Start () {
 		transform.position = new Vector3 (0, 0, 0);
 		Debug.Log (transform.position);
 	}
 	
-	void Update () {
+	private void Update () {
 		float horizontalInput = Input.GetAxis ("Horizontal");
 		float verticalInput = Input.GetAxis ("Vertical");
 		
