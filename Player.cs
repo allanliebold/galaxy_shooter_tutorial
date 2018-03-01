@@ -18,7 +18,7 @@ public class Player : MonoBehaviour {
 		Movement ();
 		
 		if(Input.GetKeyDown(KeyCode.Space)) {
-			// Spawn laser
+			Instantiate();
 		}
 	}
 	
