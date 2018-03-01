@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
+	public GameObject laserPrefab;
+	
 	[SerializeField]
 	private float speed = 5.0f;
 
