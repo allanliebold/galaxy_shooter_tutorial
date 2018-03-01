@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Laser : MonoBehaviour {
+	
+	public float speed = 10.0f;
 
 	void Start () {
 		
