@@ -9,7 +9,7 @@ public class Laser : MonoBehaviour {
 	}
 	
 	void Update () {
-		
+		// move up at speed 10
 	}
 }
 
