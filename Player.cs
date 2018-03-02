@@ -16,7 +16,7 @@ public class Player : MonoBehaviour {
 	private void Update () {
 		Movement ();
 		
-		if(Input.GetButtonDown("Fire1")) {
+		if(Input.GetButtonDown("Fire")) {
 			Instantiate(laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
 		}
 	}
