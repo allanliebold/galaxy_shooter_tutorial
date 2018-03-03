@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class Player : MonoBehaviour {
-	private GameObject laserPrefab;
+	private GameObject _laserPrefab;
 	
 	[SerializeField]
 	private float _fireRate = 0.25f;
