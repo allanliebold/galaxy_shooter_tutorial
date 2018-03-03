@@ -21,8 +21,8 @@ public class Player : MonoBehaviour {
 		Movement ();
 		
 		if(Input.GetButtonDown("Fire1")) {
-			if(Time.time > canFire) {
-				Instantiate(laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
+			if(Time.time > _canFire) {
+				Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
 				_canFire = Time.time + _fireRate;
 			}
 		}
