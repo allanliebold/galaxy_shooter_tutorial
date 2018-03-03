@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour {
 	public GameObject laserPrefab;
-	public float fireRate = 0.25f;
+	
+	[SerializeField]
+	private float fireRate = 0.25f;
 	private float canFire = 0.5f;
 	
 	[SerializeField]
