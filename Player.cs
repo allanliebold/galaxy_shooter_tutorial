@@ -22,11 +22,15 @@ public class Player : MonoBehaviour {
 		Movement ();
 		
 		if(Input.GetButtonDown("Fire1")) {
-			if(Time.time > _canFire) {
-				Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
-				_canFire = Time.time + _fireRate;
-			}
+			Shoot ();
 		}
+	}
+	
+	private void Shoot () {
+		if(Time.time > _canFire) {
+			Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
+			_canFire = Time.time + _fireRate;
+		}	
 	}
 	
 	private void Movement () {
