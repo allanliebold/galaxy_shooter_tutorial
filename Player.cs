@@ -18,10 +18,11 @@ public class Player : MonoBehaviour {
 	private void Update () {
 		Movement ();
 		
-		// Add a cooldown using fireRate and nextFire variables determine how frequently player can fire
-		
 		if(Input.GetButtonDown("Fire1")) {
-			Instantiate(laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
+			if(Time.time > canFire) {
+				Instantiate(laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
+				canFire = Time.time + fireRate;
+			}
 		}
 	}
 	
