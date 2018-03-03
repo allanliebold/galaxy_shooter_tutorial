@@ -6,11 +6,11 @@ public class Player : MonoBehaviour {
 	public GameObject laserPrefab;
 	
 	[SerializeField]
-	private float fireRate = 0.25f;
-	private float canFire = 0.5f;
+	private float _fireRate = 0.25f;
+	private float _canFire = 0.5f;
 	
 	[SerializeField]
-	private float speed = 5.0f;
+	private float _speed = 5.0f;
 
 	private void Start () {
 		transform.position = new Vector3 (0, 0, 0);
