@@ -12,6 +12,8 @@ public class Player : MonoBehaviour {
 	
 	[SerializeField]
 	private float _speed = 5.0f;
+	
+	public bool tripleShot = False;
 
 	private void Start () {
 		transform.position = new Vector3 (0, 0, 0);
