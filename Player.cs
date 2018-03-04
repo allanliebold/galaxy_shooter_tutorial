@@ -29,12 +29,12 @@ public class Player : MonoBehaviour {
 	private void Shoot () {
 	// Implement triple shot power up 
 		
-		Instantiate(_laserPrefab, transform.position + new Vector3(0.55f, 0.06f, 0), Quaternion.identity);
-		Instantiate(_laserPrefab, transform.position + new Vector3(-0.55f, 0.06f, 0), Quaternion.identity);
-		
 		if(Time.time > _canFire) {
 			Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
 			_canFire = Time.time + _fireRate;
+			
+			Instantiate(_laserPrefab, transform.position + new Vector3(0.55f, 0.06f, 0), Quaternion.identity);
+			Instantiate(_laserPrefab, transform.position + new Vector3(-0.55f, 0.06f, 0), Quaternion.identity);
 		}	
 	}
 	
