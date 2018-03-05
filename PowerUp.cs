@@ -10,9 +10,7 @@ public class PowerUp : MonoBehaviour {
 	}
 	
 	private void OnTriggerEnter2D (Collider2D other) {
-		if(other.name == "Player) {
-			Debug.Log("Player collected power up");   
-		}
+		Player player = other.GetComponent<Player>;
 	}
 }
 
