@@ -8,5 +8,9 @@ public class PowerUp : MonoBehaviour {
 	void Update () {
 		transform.Translate (Vector3.down * _speed * Time.deltaTime);	
 	}
+	
+	void OnTriggerEnter2D {
+		
+	}
 }
 
