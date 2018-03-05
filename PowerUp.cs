@@ -12,7 +12,7 @@ public class PowerUp : MonoBehaviour {
 	private void OnTriggerEnter2D (Collider2D other) {
 		Debug.Log("Collided with " + other.name);
 		// Access Player
-		// Set TripleShot bool to true
+		// Set TripleShot (or other power up) bool to true
 		// Destroy self
 	}
 }
