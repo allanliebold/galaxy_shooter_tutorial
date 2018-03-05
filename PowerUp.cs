@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PowerUp : MonoBehaviour {
-	private float _speed = 0.5f;
+	private float _speed = 3.0f;
 
 	void Start () {
 		
