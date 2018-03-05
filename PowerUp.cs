@@ -9,7 +9,7 @@ public class PowerUp : MonoBehaviour {
 	}
 	
 	void Update () {
-		
+		transform.Translate (Vector3.down * Time.deltaTime);	
 	}
 }
 
