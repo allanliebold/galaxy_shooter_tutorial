@@ -5,6 +5,8 @@ using UnityEngine;
 public class Player : MonoBehaviour {
 	[SerializeField]
 	private GameObject _laserPrefab;
+	[SerializedField]
+	private Gameobject _tripleShotPrefab;
 	
 	[SerializeField]
 	private float _fireRate = 0.25f;
@@ -30,15 +32,12 @@ public class Player : MonoBehaviour {
 	
 	private void Shoot () {
 		if(Time.time > _canFire) {
-			// Primary laser
-			Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
-			_canFire = Time.time + _fireRate;
-			
-			// Left and right lasers when Triple Shot is activated
 			if(tripleShot) {
-				Instantiate(_laserPrefab, transform.position + new Vector3(0.55f, 0.06f, 0), Quaternion.identity);
-				Instantiate(_laserPrefab, transform.position + new Vector3(-0.55f, 0.06f, 0), Quaternion.identity);
+				Instantiate(_laserPrefab, transform.position, Quaternion.identity);
+			} else {
+				Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
 			}
+			_canFire = Time.time + _fireRate;
 		}	
 	}
 	
