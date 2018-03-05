@@ -14,8 +14,8 @@ public class PowerUp : MonoBehaviour {
 			Player player = other.GetComponent<Player>;
 			if (player != null) {
 				player.tripleShot = true;
-				Destroy(this.gameObject);
 			}
+			Destroy(this.gameObject);
 		}
 	}
 }
