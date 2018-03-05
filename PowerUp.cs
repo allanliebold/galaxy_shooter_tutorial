@@ -10,7 +10,7 @@ public class PowerUp : MonoBehaviour {
 	}
 	
 	private void OnTriggerEnter2D (Collider2D other) {
-		
+		Debug.log("Collided with " + other.name);
 	}
 }
 
