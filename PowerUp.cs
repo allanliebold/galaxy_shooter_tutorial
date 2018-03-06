@@ -13,9 +13,8 @@ public class PowerUp : MonoBehaviour {
 		if (other.tag == "Player") {
 			Player player = other.GetComponent<Player>;
 			if (player != null) {
-				player.tripleShot = true;
+				player.TripleShotOn();
 			}
-			StartCoroutine(player.TripleShotOn);
 			
 			Destroy(this.gameObject);
 		}
