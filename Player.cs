@@ -68,7 +68,8 @@ public class Player : MonoBehaviour {
 	}
 	
 	public void TripleShotOn () {
-		
+		tripleShot = true;
+		StartCoroutine(TripleShotTimer());
 	}
 	
 	public IEnumerator TripleShotTimer () {
