@@ -67,4 +67,7 @@ public class Player : MonoBehaviour {
 		}	
 	}
 	
+	IEnumerator TripleShotTimer () {
+		
+	}
 }
