@@ -68,6 +68,6 @@ public class Player : MonoBehaviour {
 	}
 	
 	IEnumerator TripleShotTimer () {
-		yield return new WaitForSeconds();
+		yield return new WaitForSeconds(5.0f);
 	}
 }
