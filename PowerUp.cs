@@ -15,7 +15,7 @@ public class PowerUp : MonoBehaviour {
 			if (player != null) {
 				player.tripleShot = true;
 			}
-			StartCoroutine(player.TripleShotTimer);
+			StartCoroutine(player.TripleShotOn);
 			
 			Destroy(this.gameObject);
 		}
