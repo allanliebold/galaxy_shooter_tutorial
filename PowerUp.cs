@@ -5,6 +5,9 @@ using UnityEngine;
 public class PowerUp : MonoBehaviour {
 	private float _speed = 3.0f;
 	
+	[SerializedField]
+	private int powerUpID;
+	
 	void Update () {
 		transform.Translate (Vector3.down * _speed * Time.deltaTime);	
 	}
