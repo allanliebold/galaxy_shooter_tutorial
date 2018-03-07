@@ -18,10 +18,6 @@ public class PowerUp : MonoBehaviour {
 			if (player != null) {
 				player.TripleShotOn();
 			}
-			
-		if (this.tag = "SpeedUp" and other.tag == "Player") {
-			// Speed Up power up 	
-		}
 			Destroy(this.gameObject);
 		}
 	}
