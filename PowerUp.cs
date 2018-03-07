@@ -15,7 +15,6 @@ public class PowerUp : MonoBehaviour {
 			if (player != null) {
 				player.TripleShotOn();
 			}
-			
 			Destroy(this.gameObject);
 		}
 	}
