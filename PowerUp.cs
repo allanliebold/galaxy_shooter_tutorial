@@ -19,6 +19,9 @@ public class PowerUp : MonoBehaviour {
 				if(powerUpID == 0) {
 					player.TripleShotOn();
 				}
+				if(powerUpID == 1) {
+					player.SpeedBoostOn();	
+				}
 			}
 			Destroy(this.gameObject);
 		}
