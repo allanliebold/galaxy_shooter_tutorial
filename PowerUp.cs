@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PowerUp : MonoBehaviour {
+	[SerializedField]
 	private float _speed = 3.0f;
-	
 	[SerializedField]
 	private int powerUpID;
 	
