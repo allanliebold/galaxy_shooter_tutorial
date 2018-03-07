@@ -10,7 +10,7 @@ public class PowerUp : MonoBehaviour {
 	}
 	
 	private void OnTriggerEnter2D (Collider2D other) {
-		if (other.tag == "Player") {
+		if (this.tag = "TripleShot" and other.tag == "Player") {
 			Player player = other.GetComponent<Player>();
 			if (player != null) {
 				player.TripleShotOn();
