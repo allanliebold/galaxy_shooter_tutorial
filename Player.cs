@@ -16,6 +16,7 @@ public class Player : MonoBehaviour {
 	private float _speed = 5.0f;
 	
 	public bool tripleShot = false;
+	public bool speedBoost = false;
 
 	private void Start () {
 		transform.position = new Vector3 (0, 0, 0);
