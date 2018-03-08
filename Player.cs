@@ -35,7 +35,7 @@ public class Player : MonoBehaviour {
 	private void Shoot () {
 		if(Time.time > _canFire) {
 			if(tripleShot) {
-				Instantiate(_laserPrefab, transform.position, Quaternion.identity);
+				Instantiate(_tripleShotPrefab, transform.position, Quaternion.identity);
 			} else {
 				Instantiate(_laserPrefab, transform.position + new Vector3(0, 0.88f, 0), Quaternion.identity);
 			}
