@@ -76,6 +76,7 @@ public class Player : MonoBehaviour {
 	
 	public void SpeedBoostOn () {
 		speedBoost = true;
+		StartCoroutine(PowerUpTime());
 	}
 	
 	public IEnumerator PowerUpTimer () {
