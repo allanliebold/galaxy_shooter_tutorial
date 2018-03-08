@@ -74,7 +74,7 @@ public class Player : MonoBehaviour {
 		StartCoroutine(PowerUpTimer());
 	}
 	
-	public IEnumerator TripleShotTimer () {
+	public IEnumerator PowerUpTimer () {
 		yield return new WaitForSeconds(5.0f);
 		tripleShot = false;
 	}
