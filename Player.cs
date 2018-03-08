@@ -81,6 +81,7 @@ public class Player : MonoBehaviour {
 	
 	public void ShieldOn () {
 		shield = true;
+		StartCoroutine(PowerUpTime());
 	}
 	
 	public IEnumerator PowerUpTimer () {
