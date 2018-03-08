@@ -6,7 +6,7 @@ public class PowerUp : MonoBehaviour {
 	[SerializedField]
 	private float _speed = 3.0f;
 	[SerializedField]
-	private int powerUpID; // 0 = Triple Shot, 1 = Speed Boost
+	private int powerUpID; // 0 = Triple Shot, 1 = Speed Boost, 2 = Shield
 	
 	void Update () {
 		transform.Translate (Vector3.down * _speed * Time.deltaTime);	
