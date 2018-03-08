@@ -80,7 +80,7 @@ public class Player : MonoBehaviour {
 	}
 	
 	public void ShieldOn () {
-		
+		shield = true;
 	}
 	
 	public IEnumerator PowerUpTimer () {
