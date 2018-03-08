@@ -79,6 +79,10 @@ public class Player : MonoBehaviour {
 		StartCoroutine(PowerUpTimer());
 	}
 	
+	public void ShieldOn () {
+		
+	}
+	
 	public IEnumerator PowerUpTimer () {
 		yield return new WaitForSeconds(5.0f);
 		if(tripleShot) {
