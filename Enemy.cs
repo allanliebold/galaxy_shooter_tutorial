@@ -9,6 +9,6 @@ public class Enemy : MonoBehaviour {
     }
   
     void Update () {
-      
+      // If other is laser, destroy this
     }
 }
