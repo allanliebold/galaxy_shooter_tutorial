@@ -13,4 +13,8 @@ public class Enemy : MonoBehaviour {
         
       // If other is player, damage or kill player
     }
+    
+    void Movement () {
+        
+    }
 }
