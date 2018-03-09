@@ -15,6 +15,8 @@ public class Enemy : MonoBehaviour {
     }
     
     void Movement () {
+        // move down
+        
         
     }
 }
