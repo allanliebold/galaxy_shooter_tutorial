@@ -10,5 +10,7 @@ public class Enemy : MonoBehaviour {
   
     void Update () {
       // If other is laser, destroy this
+        
+      // If other is player, damage or kill player
     }
 }
