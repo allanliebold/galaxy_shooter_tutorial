@@ -16,7 +16,7 @@ public class Enemy : MonoBehaviour {
     }
     
     void Death () {
-        
+        // destroy enemy on collision with player shot or with player object
     }
     
     void KillPlayer() {
