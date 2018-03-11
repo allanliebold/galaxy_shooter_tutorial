@@ -95,6 +95,10 @@ public class Player : MonoBehaviour {
 		StartCoroutine(PowerUpTime());
 	}
 	
+	public void RapidFireOn () {
+		
+	}
+	
 	public IEnumerator PowerUpTimer () {
 		yield return new WaitForSeconds(5.0f);
 		if(tripleShot) {
