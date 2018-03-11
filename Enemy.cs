@@ -18,4 +18,8 @@ public class Enemy : MonoBehaviour {
         // move down
         // move left and right    
     }
+    
+    void KillPlayer() {
+        
+    }
 }
