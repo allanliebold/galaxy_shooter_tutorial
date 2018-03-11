@@ -99,11 +99,9 @@ public class Player : MonoBehaviour {
 		if(tripleShot) {
 			tripleShot = false;
 		}
-		
 		if(speedBoost) {
 			speedBoost = false;	
 		}
-		
 		if(shield) {
 			shield = false; 	
 		}
