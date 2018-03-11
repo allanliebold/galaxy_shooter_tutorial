@@ -21,5 +21,6 @@ public class Enemy : MonoBehaviour {
     
     void KillPlayer() {
         // collide with player, call player.Death()
+        // and destroy enemy object
     }
 }
