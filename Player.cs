@@ -75,6 +75,7 @@ public class Player : MonoBehaviour {
 	
 	public void Death () {
 		// called by enemy on impact with player
+		// take a life away and destroy player
 	}
 	
 	public void TripleShotOn () {
