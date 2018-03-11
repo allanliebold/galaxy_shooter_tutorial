@@ -73,6 +73,10 @@ public class Player : MonoBehaviour {
 		}	
 	}
 	
+	private void Death() {
+		
+	}
+	
 	public void TripleShotOn () {
 		tripleShot = true;
 		StartCoroutine(PowerUpTimer());
