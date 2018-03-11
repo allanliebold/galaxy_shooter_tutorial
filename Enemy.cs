@@ -19,6 +19,10 @@ public class Enemy : MonoBehaviour {
         // move left and right    
     }
     
+    void Death () {
+        
+    }
+    
     void KillPlayer() {
         // collide with player, call player.Death()
         // and destroy enemy object
