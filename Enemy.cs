@@ -20,6 +20,6 @@ public class Enemy : MonoBehaviour {
     }
     
     void KillPlayer() {
-        // collide with player
+        // collide with player, call player.Death()
     }
 }
