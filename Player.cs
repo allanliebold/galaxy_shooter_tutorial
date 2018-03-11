@@ -47,8 +47,12 @@ public class Player : MonoBehaviour {
 		float horizontalInput = Input.GetAxis ("Horizontal");
 		float verticalInput = Input.GetAxis ("Vertical");
 		
-		transform.Translate (Vector3.right * _speed * horizontalInput * Time.deltaTime);
-		transform.Translate (Vector3.up * _speed * verticalInput * Time.deltaTime);
+		if(speedBoost) {
+		
+		} else {
+			transform.Translate (Vector3.right * _speed * horizontalInput * Time.deltaTime);
+			transform.Translate (Vector3.up * _speed * verticalInput * Time.deltaTime);
+		}
 		
 		if(transform.position.x > 9.4f) {
 			transform.position = new Vector3(9.4f, transform.position.y, 0);	
