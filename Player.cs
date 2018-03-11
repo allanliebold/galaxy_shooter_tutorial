@@ -96,7 +96,8 @@ public class Player : MonoBehaviour {
 	}
 	
 	public void RapidFireOn () {
-		
+		rapidFire = true;
+		StartCoroutine(PowerUpTimer());
 	}
 	
 	public IEnumerator PowerUpTimer () {
