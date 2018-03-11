@@ -92,7 +92,7 @@ public class Player : MonoBehaviour {
 	
 	public void ShieldOn () {
 		shield = true;
-		StartCoroutine(PowerUpTime());
+		StartCoroutine(PowerUpTimer());
 	}
 	
 	public void RapidFireOn () {
