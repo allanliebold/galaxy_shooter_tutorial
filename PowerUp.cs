@@ -24,6 +24,10 @@ public class PowerUp : MonoBehaviour {
 				}
 				if(powerUpID == 2) {
 					player.ShieldOn();
+				}
+				if(powerUpID == 3) {
+					
+				}
 			}
 			Destroy(this.gameObject);
 		}
