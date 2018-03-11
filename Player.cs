@@ -73,7 +73,7 @@ public class Player : MonoBehaviour {
 		}	
 	}
 	
-	private void Death() {
+	public void Death() {
 		
 	}
 	
