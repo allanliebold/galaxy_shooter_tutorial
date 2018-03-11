@@ -97,5 +97,9 @@ public class Player : MonoBehaviour {
 		if(speedBoost) {
 			speedBoost = false;	
 		}
+		
+		if(shield) {
+			shield = false; 	
+		}
 	}
 }
