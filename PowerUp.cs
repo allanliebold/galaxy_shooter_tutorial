@@ -28,6 +28,7 @@ public class PowerUp : MonoBehaviour {
 				if(powerUpID == 3) {
 					player.RapidFireOn();
 				}
+				// player shouldn't be able to have multiple active power ups at the same time
 			}
 			Destroy(this.gameObject);
 		}
