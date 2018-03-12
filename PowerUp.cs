@@ -29,6 +29,7 @@ public class PowerUp : MonoBehaviour {
 					player.RapidFireOn();
 				}
 				// player shouldn't be able to have multiple active power ups at the same time
+				// maybe shield is allowed along with another, since it's not on a timer. 
 			}
 			Destroy(this.gameObject);
 		}
