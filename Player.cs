@@ -111,5 +111,8 @@ public class Player : MonoBehaviour {
 		if(shield) {
 			shield = false; 	
 		}
+		if(rapidFire) {
+			rapidFire = false;	
+		}
 	}
 }
