@@ -14,6 +14,6 @@ public class SpawnManager : MonoBehaviour {
 	}
 	
 	void SpawnEnemy () {
-		
+		// Instantiate new enemy
 	}
 }
