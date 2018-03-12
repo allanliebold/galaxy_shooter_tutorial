@@ -9,6 +9,7 @@ public class SpawnManager : MonoBehaviour {
 	[SerializedField]
 	private GameObject _enemy;
 	[SerializedField]
+	private GameObject _powerUp;
 	
 	void Update () {
 		
