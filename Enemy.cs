@@ -5,7 +5,7 @@ using UnityEngine;
 public class Enemy : MonoBehaviour {
   
     void Update () {
-      // If other is laser, destroy this
+      // If other is laser, destroy this (and the laser too)
         
       // If other is player, damage or kill player
     }
