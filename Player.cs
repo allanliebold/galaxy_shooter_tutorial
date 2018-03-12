@@ -15,7 +15,7 @@ public class Player : MonoBehaviour {
 	[SerializeField]
 	private float _speed = 5.0f;
 	
-	public int health;
+	public int health = 3;
 	
 	public bool tripleShot = false;
 	public bool speedBoost = false;
