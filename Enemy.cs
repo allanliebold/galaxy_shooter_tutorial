@@ -18,6 +18,7 @@ public class Enemy : MonoBehaviour {
     void Death () {
         // destroy enemy on collision with player shot or with player object
         // Increment killCount. If it goes above a set number, call SpawnManager.SpawnPowerUp()
+        // Randomly selected power up is spawned at the location where the enemy was destroyed. 
         // reset killCount to 0
     }
     
