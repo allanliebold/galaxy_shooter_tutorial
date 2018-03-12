@@ -18,4 +18,8 @@ public class SpawnManager : MonoBehaviour {
 	void SpawnEnemy () {
 		// Instantiate new enemy
 	}
+	
+	void SpawnPowerUp () {
+		// Instantiate power up. Timer or based on number of enemies destroyed? 	
+	}
 }
