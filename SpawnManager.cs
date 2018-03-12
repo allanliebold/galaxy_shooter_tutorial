@@ -6,4 +6,8 @@ public class SpawnManager : MonoBehaviour {
 	void Start () {
 	
 	}
+	
+	void Update () {
+		
+	}
 }
