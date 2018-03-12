@@ -7,7 +7,7 @@ public class SpawnManager : MonoBehaviour {
 	private float spawnTimer = 4.0f;
 	
 	[SerializedField]
-	private Enemy gameObject = _enemy;
+	private GameObject _enemy;
 	
 	void Update () {
 		
