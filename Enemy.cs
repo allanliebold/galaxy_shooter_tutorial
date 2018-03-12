@@ -17,6 +17,8 @@ public class Enemy : MonoBehaviour {
     
     void Death () {
         // destroy enemy on collision with player shot or with player object
+        // Increment killCount. If it goes above a set number, call SpawnManager.SpawnPowerUp()
+        // reset killCount to 0
     }
     
     void KillPlayer() {
