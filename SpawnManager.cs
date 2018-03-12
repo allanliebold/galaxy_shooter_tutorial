@@ -6,6 +6,9 @@ public class SpawnManager : MonoBehaviour {
 	
 	private float spawnTimer = 4.0f;
 	
+	[SerializedField]
+	private Enemy gameObject = _enemy;
+	
 	void Update () {
 		
 	}
