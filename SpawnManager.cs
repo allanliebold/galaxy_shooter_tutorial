@@ -5,6 +5,7 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour {
 	
 	private float spawnTimer = 4.0f;
+	private float nextSpawn;
 	private int killCount = 0;
 	
 	[SerializedField]
