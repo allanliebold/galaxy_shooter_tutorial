@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
   
-    // GameObject enemy
+    // GameObject enemy. Possibly multiple kinds to be chosen at random
   
     void Update () {
       // If other is laser, destroy this (and the laser too)
