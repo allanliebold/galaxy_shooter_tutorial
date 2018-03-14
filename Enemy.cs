@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour {
   
+    // GameObject enemy
+  
     void Update () {
       // If other is laser, destroy this (and the laser too)
         
