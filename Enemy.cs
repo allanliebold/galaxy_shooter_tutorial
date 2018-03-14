@@ -15,7 +15,7 @@ public class Enemy : MonoBehaviour {
     void Movement () {
         // move down
         // move left and right
-        // other maneuvers? 
+        // other maneuvers? Rotation
     }
     
     void Death () {
