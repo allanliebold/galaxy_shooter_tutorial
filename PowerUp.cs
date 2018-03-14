@@ -8,6 +8,7 @@ public class PowerUp : MonoBehaviour {
 	[SerializedField]
 	private int powerUpID; // 0 = Triple Shot, 1 = Speed Boost, 2 = Shield, 3 = Rapid Fire
 	// Other ideas for powerups - heavy laser (wide and shoots through multiple enemies)
+	// invincibility? Different from shield
 	
 	void Update () {
 		transform.Translate (Vector3.down * _speed * Time.deltaTime);	
