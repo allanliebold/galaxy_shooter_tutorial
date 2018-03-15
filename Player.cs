@@ -78,6 +78,7 @@ public class Player : MonoBehaviour {
 		// called by enemy on impact with player
 		// take a life away and destroy player
 		// if shield is activated, set to false and remove shield instead of killing player
+		// respawn player 
 	}
 	
 	public void TripleShotOn () {
