@@ -27,6 +27,6 @@ public class SpawnManager : MonoBehaviour {
 	}
 	
 	// void SpawnPlayer () {
-	
+	// Here or in the player script
 	// }
 }
