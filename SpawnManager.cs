@@ -10,7 +10,7 @@ public class SpawnManager : MonoBehaviour {
 	
 	IEnumerator EnemySpawn() {
 		while (true) {
-			Instantiate(enemyShipPrefab, new Vector3(Random.Range(-7f, 7f), 7, 0))	
+			Instantiate(enemyShipPrefab, new Vector3(Random.Range(-7f, 7f), 7, 0), Quaternion.identity)	
 		}
 	}
 }
