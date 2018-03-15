@@ -7,4 +7,8 @@ public class SpawnManager : MonoBehaviour {
 	private GameObject enemyShipPrefab;
 	[SerializeField]
 	private GameObject[] powerUps;
+	
+	IEnumerator EnemySpawn() {
+			
+	}
 }
