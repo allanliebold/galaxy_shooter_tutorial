@@ -9,6 +9,8 @@ public class SpawnManager : MonoBehaviour {
 	private GameObject[] powerUps;
 	
 	IEnumerator EnemySpawn() {
-			
+		while (true) {
+				
+		}
 	}
 }
