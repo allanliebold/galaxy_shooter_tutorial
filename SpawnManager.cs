@@ -25,4 +25,8 @@ public class SpawnManager : MonoBehaviour {
 		// Instantiate power up. Timer or based on number of enemies destroyed?
 		// If killCount = 10 spawn power up and reset killCount to 0. Actually, this should be on the enemy.
 	}
+	
+	// void SpawnPlayer () {
+	
+	// }
 }
