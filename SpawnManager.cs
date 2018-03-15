@@ -5,4 +5,6 @@ using UnityEngine;
 public class SpawnManager : MonoBehaviour {
 	[SerializeField]
 	private GameObject enemyShipPrefab;
+	[SerializeField]
+	private GameObject[] powerUps;
 }
