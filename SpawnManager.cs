@@ -16,7 +16,7 @@ public class SpawnManager : MonoBehaviour {
 	
 	IEnumerator PowerUpSpawn() {
 		while (true) {
-			
+			// Instantiate random power up
 		}
 	}
 }
