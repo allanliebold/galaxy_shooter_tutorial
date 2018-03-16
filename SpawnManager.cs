@@ -13,4 +13,8 @@ public class SpawnManager : MonoBehaviour {
 			Instantiate(enemyShipPrefab, new Vector3(Random.Range(-7f, 7f), 7, 0), Quaternion.identity)	
 		}
 	}
+	
+	IEnumerator PowerUpSpawn() {
+		
+	}
 }
