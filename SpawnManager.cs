@@ -11,6 +11,7 @@ public class SpawnManager : MonoBehaviour {
 	
 	void Start() {
 		StartCoroutine(EnemySpawnRoutine());
+		StartCoroutine(PowerUpSpawnRoutine());
 	}
 	
 	IEnumerator EnemySpawnRoutine() {
