@@ -9,6 +9,10 @@ public class SpawnManager : MonoBehaviour {
 	private GameObject[] powerUps; // an array to store power up objects to be chosen at random
 	// triple shot, 
 	
+	void Start() {
+		
+	}
+	
 	IEnumerator EnemySpawnRoutine() {
 		while (true) {
 			Instantiate(enemyShipPrefab, new Vector3(Random.Range(-7f, 7f), 7, 0), Quaternion.identity)	
