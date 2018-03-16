@@ -10,7 +10,7 @@ public class SpawnManager : MonoBehaviour {
 	// triple shot, 
 	
 	void Start() {
-		
+		StartCoroutine(EnemySpawnRoutine());
 	}
 	
 	IEnumerator EnemySpawnRoutine() {
