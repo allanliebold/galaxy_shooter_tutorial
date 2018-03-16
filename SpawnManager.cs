@@ -6,7 +6,7 @@ public class SpawnManager : MonoBehaviour {
 	[SerializeField]
 	private GameObject enemyShipPrefab;
 	[SerializeField]
-	private GameObject[] powerUps;
+	private GameObject[] powerUps; // an array to store power up objects to be chosen at random
 	
 	IEnumerator EnemySpawn() {
 		while (true) {
