@@ -16,7 +16,7 @@ public class SpawnManager : MonoBehaviour {
 		}
 	}
 	
-	IEnumerator PowerUpSpawn() {
+	IEnumerator PowerUpSpawnRoutine() {
 		while (true) {
 			// Instantiate random power up
 		}
