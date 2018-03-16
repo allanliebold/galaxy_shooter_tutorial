@@ -15,6 +15,8 @@ public class SpawnManager : MonoBehaviour {
 	}
 	
 	IEnumerator PowerUpSpawn() {
-		
+		while (true) {
+			
+		}
 	}
 }
