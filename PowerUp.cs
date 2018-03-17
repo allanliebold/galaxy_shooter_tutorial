@@ -32,6 +32,7 @@ public class PowerUp : MonoBehaviour {
 				}
 				// player shouldn't be able to have multiple active power ups at the same time
 				// maybe shield is allowed along with another, since it's not on a timer. 
+				// would it override? Or I guess since the power ups are spread out it doesn't matter. 
 			}
 			Destroy(this.gameObject);
 		}
