@@ -19,6 +19,8 @@ public class Player : MonoBehaviour {
 	public bool speedBoost = false;
 	public bool shield = false;
 	public bool rapidFire = false;
+	
+	public int lives;
 
 	private void Start () {
 		transform.position = new Vector3 (0, 0, 0);
