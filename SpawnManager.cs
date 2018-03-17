@@ -7,7 +7,7 @@ public class SpawnManager : MonoBehaviour {
 	private GameObject enemyShipPrefab;
 	[SerializeField]
 	private GameObject[] powerUps; // an array to store power up objects to be chosen at random
-	// triple shot, 
+	// triple shot, shield
 	
 	void Start() {
 		StartCoroutine(EnemySpawnRoutine());
