@@ -8,7 +8,7 @@ public class SpawnManager : MonoBehaviour {
 	[SerializeField]
 	private GameObject[] powerUps; // an array to store power up objects to be chosen at random
 
-	void Start() {
+	void Start () {
 		StartCoroutine(EnemySpawnRoutine());
 		StartCoroutine(PowerUpSpawnRoutine());
 	}
