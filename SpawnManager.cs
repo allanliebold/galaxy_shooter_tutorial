@@ -21,7 +21,7 @@ public class SpawnManager : MonoBehaviour {
 	}
 	
 	IEnumerator PowerUpSpawnRoutine() {
-		while (true) {
+		while(true) {
 			Instantiate(powerUp);
 			yield return new WaitForSeconds(10.0f);
 		}
