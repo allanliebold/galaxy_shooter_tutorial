@@ -46,12 +46,12 @@ public class Player : MonoBehaviour {
 		}	
 	}
 	
-	private void Movement () {
+	private void Movement() {
 		float horizontalInput = Input.GetAxis ("Horizontal");
 		float verticalInput = Input.GetAxis ("Vertical");
 		
 		if(speedBoost) {
-		
+			speed = 10.0f;
 		} else {
 			transform.Translate (Vector3.right * _speed * horizontalInput * Time.deltaTime);
 			transform.Translate (Vector3.up * _speed * verticalInput * Time.deltaTime);
