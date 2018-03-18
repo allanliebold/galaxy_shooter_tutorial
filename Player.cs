@@ -63,6 +63,7 @@ public class Player : MonoBehaviour {
 		} else if(transform.position.x < -9.4f) {
 			transform.position = new Vector3(-9.4f, transform.position.y, 0);	
 		}		
+		
 /* To have the player wrap around horizontally
 	if(transform.position.x > 9.4f) {
 		transform.position = new Vector3(-9.4f, transform.position.y, 0);
