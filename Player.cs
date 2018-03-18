@@ -54,7 +54,7 @@ public class Player : MonoBehaviour {
 			transform.Translate (Vector3.right * (_speed * 2) * horizontalInput * Time.deltaTime);
 			transform.Translate (Vector3.up * _speed * verticalInput * Time.deltaTime);
 		} else {
-			transform.Translate (Vector3.right * _speed * horizontalInput * Time.deltaTime);
+			transform.Translate (Vector3.right * (_speed * 2) * horizontalInput * Time.deltaTime);
 			transform.Translate (Vector3.up * _speed * verticalInput * Time.deltaTime);
 		}
 		
