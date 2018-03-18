@@ -18,7 +18,7 @@ public class Player : MonoBehaviour {
 	public bool tripleShot = false;
 	public bool speedBoost = false;
 	public bool shield = false;
-	public bool rapidFire = false;
+	// public bool rapidFire = false;
 	
 	public int lives = 3;
 
