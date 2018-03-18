@@ -20,7 +20,7 @@ public class Player : MonoBehaviour {
 	public bool shield = false;
 	public bool rapidFire = false;
 	
-	public int lives;
+	public int lives = 3;
 
 	private void Start () {
 		transform.position = new Vector3 (0, 0, 0);
