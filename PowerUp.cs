@@ -26,9 +26,9 @@ public class PowerUp : MonoBehaviour {
 				}
 				if(powerUpID == 2) {
 					player.ShieldOn();
-				}
-				if(powerUpID == 3) {
-					player.RapidFireOn();
+//				}
+//				if(powerUpID == 3) {
+//					player.RapidFireOn();
 				}
 				// player shouldn't be able to have multiple active power ups at the same time
 				// maybe shield is allowed along with another, since it's not on a timer. 
