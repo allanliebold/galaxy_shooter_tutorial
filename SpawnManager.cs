@@ -13,14 +13,14 @@ public class SpawnManager : MonoBehaviour {
 		StartCoroutine(PowerUpSpawnRoutine());
 	}
 	
-	IEnumerator EnemySpawnRoutine() {
+	IEnumerator EnemySpawnRoutine () {
 		while(true) {
 			Instantiate(enemyShipPrefab, new Vector3(Random.Range(-7f, 7f), 7, 0), Quaternion.identity);	
 			yield return new WaitForSeconds(5.0f);
 		}
 	}
 	
-	IEnumerator PowerUpSpawnRoutine() {
+	IEnumerator PowerUpSpawnRoutine () {
 		while(true) {
 			Instantiate(powerUp);
 			yield return new WaitForSeconds(10.0f);
